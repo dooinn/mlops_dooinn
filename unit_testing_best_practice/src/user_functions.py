@@ -6,3 +6,4 @@ def get_email_from_input():
         print('Email is not valid.')
     else:
         return email
+

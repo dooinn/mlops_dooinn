@@ -16,3 +16,6 @@ def test_email_with_user_input_no_dot(monkeypatch):
 def test_email_with_user_input_correct(monkeypatch):
     monkeypatch.setattr('sys.stdin', io.StringIO('petra@adaltas.com'))
     assert get_email_from_input() == 'petra@adaltas.com'
+
+
+
